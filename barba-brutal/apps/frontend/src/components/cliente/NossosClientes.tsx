@@ -1,7 +1,8 @@
-import { clientes } from "@barba/core"
-import ClienteItem from "./ClienteItem"
-import Titulo from "../shared/Titulo"
-import { LayoutGrid } from "../ui/layout-grid"
+
+import clientes from '@barba/core/src/constants/clientes'
+import { LayoutGrid } from '../ui/layout-grid'
+import ClienteItem from './ClienteItem'
+import Titulo from '@/components/shared/Titulo'
 
 export default function NossosClientes() {
     const classes = ['md:col-span-2', 'col-span-1', 'col-span-1', 'md:col-span-2']
