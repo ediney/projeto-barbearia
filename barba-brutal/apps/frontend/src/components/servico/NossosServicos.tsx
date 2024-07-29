@@ -1,9 +1,9 @@
 'use client'
 import { Servico } from '@barba/core'
 import { useRouter } from 'next/navigation'
+import { useServicos } from '@barba/ui'
 import ServicoItem from './ServicoItem'
 import Titulo from '../shared/Titulo'
-import useServicos from '@/data/hooks/useServicos'
 
 export default function NossosServicos() {
     const router = useRouter()

@@ -1,10 +1,10 @@
 'use client'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useEffect, useState } from 'react'
-import { TelefoneUtils } from '@barba/core'
 import useUsuario from '@/data/hooks/useUsuario'
 import Logo from '@/components/shared/Logo'
 import Image from 'next/image'
+import { TelefoneUtils } from '@barba/core/src/utils'
 
 export default function FormUsuario() {
     const [nome, setNome] = useState('')

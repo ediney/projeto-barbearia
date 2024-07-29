@@ -12,4 +12,13 @@ export default class DataUtils {
         novaData.setHours(parseInt(partes[0]!), parseInt(partes[1]!))
         return novaData
     }
+
+    static formatarData(data: Date): string {
+        return data.toLocaleDateString('pt-BR', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+        })
+    }
 }

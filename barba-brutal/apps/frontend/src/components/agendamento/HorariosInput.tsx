@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { cn } from '@/lib/utils'
 import { IconX } from '@tabler/icons-react'
-import { AgendaUtils, DataUtils } from '@barba/core'
 import useAgendamento from '@/data/hooks/useAgendamento'
+import { AgendaUtils, DataUtils } from '@barba/core/src/utils'
 
 export interface HorariosInputProps {
     data: Date

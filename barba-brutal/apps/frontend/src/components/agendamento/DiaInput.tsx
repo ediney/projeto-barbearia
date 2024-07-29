@@ -1,4 +1,4 @@
-import { DataUtils } from '@barba/core'
+import { DataUtils } from "@barba/core/src/utils"
 
 export interface DiaInputProps {
     data: Date

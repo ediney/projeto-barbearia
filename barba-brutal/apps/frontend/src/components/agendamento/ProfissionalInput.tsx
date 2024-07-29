@@ -1,4 +1,4 @@
-import useProfissionais from '@/data/hooks/useProfissionais'
+import { useProfissionais } from '@barba/ui'
 import { Profissional } from '@barba/core'
 import Image from 'next/image'
 

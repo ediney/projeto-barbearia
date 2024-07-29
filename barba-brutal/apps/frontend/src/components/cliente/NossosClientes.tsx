@@ -1,5 +1,4 @@
-
-import clientes from '@barba/core/src/constants/clientes'
+import { clientes } from '@barba/core/src/constants'
 import { LayoutGrid } from '../ui/layout-grid'
 import ClienteItem from './ClienteItem'
 import Titulo from '@/components/shared/Titulo'

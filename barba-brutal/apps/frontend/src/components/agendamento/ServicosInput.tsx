@@ -1,4 +1,4 @@
-import useServicos from '@/data/hooks/useServicos'
+import { useServicos } from '@barba/ui'
 import { Servico } from '@barba/core'
 import Image from 'next/image'
 
